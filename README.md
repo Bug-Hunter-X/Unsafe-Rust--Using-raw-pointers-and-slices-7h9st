@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust involving unsafe code and raw pointers. The example shows how creating a mutable slice from a raw pointer can lead to undefined behavior if the underlying vector's capacity changes. The solution showcases a safer approach using safe Rust techniques and avoiding direct memory manipulation.
